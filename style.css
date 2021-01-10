@@ -1,0 +1,230 @@
+body {
+    margin: 0px;
+}
+
+.menu {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    padding: 20px;
+}
+
+.menu a:hover {
+    background-color: aqua;
+}
+
+.header {
+    text-align: center;
+    background-image: url(img/polygons.png);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    color: snow;
+    margin-top: 60px;
+    background-attachment: fixed;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    background-color: snow;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+
+.header a:hover {
+    background-color: #b1b1b2;
+}
+
+.header h3 {
+    margin-bottom: 40px;
+}
+
+.sur {
+    width: 400px;
+    float: right;
+    margin: 0px 20px;
+}
+
+.about {
+    padding: 10px;
+  max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.comanda h1,
+.comanda h3 {
+    text-align: center;
+}
+
+.sotrudnik {
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    box-shadow: 0 2px 5px gray;
+    padding: 8px;
+    text-align: left;
+}
+
+.sotrudnik img {
+    width: 100%;
+}
+
+.comanda {
+    text-align: center;
+}
+
+.sotrudnik a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #055b73;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    color: snow;
+}
+
+.cene li {
+    list-style: none;
+    border-bottom: 1px solid #dddddd;
+    padding: 15px 0;
+    background-color: snow;
+}
+
+.cene .black {
+    color: snow;
+    background-color: black;
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.cene .odin {
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    min-width: 150px;
+}
+
+.cene {
+    text-align: center;
+    background-color: #616161;
+    padding: 20px 0;
+
+}
+
+.cene .shirniy {
+    font-weight: bold;
+}
+
+.cene li:last-child {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+.cene .drugoy {
+    opacity: 0.5;
+    color: black;
+}
+
+.cene a {
+    text-decoration: none;
+    color: snow;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.cene .ceni:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.cene h1,
+.cene p {
+    color: snow;
+}
+
+.cene .rovniy {
+    color: black;
+}
+
+.cene .nene {
+    background-color: #055b73;
+    color: azure;
+    padding: 30px 0;
+    font-size: 30px;
+    height: 50px;
+}
+
+.contacts {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+
+
+
+}
+
+.adress {
+    background-image: url(img/address.png);
+}
+
+.telefon {
+    background-image: url(img/phone.png);
+}
+
+.email {
+    background-image: url(img/mail.png);
+}
+
+.contact {
+    background-repeat: no-repeat;
+    text-align: left;
+    padding-left: 30px;
+    background-size: 18px;
+    background-position: left center;
+    margin-left: 5%;
+}
+
+.contacts input {
+    width: 90%;
+    padding:5px;
+}
+.contacts button{
+    border-radius: 5px;
+    background-color: black;
+    color: white; 
+    padding: 5px 3px;
+}
+.contacts button:hover{
+    background-color: white;
+    color: black;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
